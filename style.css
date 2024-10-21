@@ -1,52 +1,40 @@
-/* Aesthetic Background */
+/* Global Styles */
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: url('https://source.unsplash.com/1600x900/?nature,landscape') no-repeat center center/cover;
+    background-color: #f8f9fa;
     font-family: 'Arial', sans-serif;
-  }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    min-height: 100vh;
-    padding-top: 2rem;
   }
   
   /* Card Styling */
   .card {
-    border-radius: 16px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
   }
   
-  /* Input Button Shadows */
-  .btn-primary, .btn-danger {
-    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3), 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+  /* Button Shadows */
+  .btn-primary {
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.25);
+    transition: transform 0.1s ease-in-out;
   }
   
-  .btn-primary:hover, .btn-danger:hover {
+  .btn-primary:hover {
     transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(0, 123, 255, 0.5);
   }
   
-  /* List Group Styling */
+  .btn-danger {
+    box-shadow: 0px 4px 8px rgba(220, 53, 69, 0.25);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .btn-danger:hover {
+    transform: scale(1.05);
+  }
+  
+  /* List Item Styling */
   .list-group-item {
     border: none;
     border-bottom: 1px solid #dee2e6;
-    padding: 1rem;
-    font-size: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.8);
   }
   
   .list-group-item:last-child {
     border-bottom: none;
-  }
-  
-  /* Total Amount Styling */
-  #total-amount {
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
