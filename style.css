@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 12px;
+  }
+  
+  /* Button Shadows */
+  .btn-primary {
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.25);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-danger {
+    box-shadow: 0px 4px 8px rgba(220, 53, 69, 0.25);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .btn-danger:hover {
+    transform: scale(1.05);
+  }
+  
+  /* List Item Styling */
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
